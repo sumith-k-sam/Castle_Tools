@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: credvault
-          image: 457660516559.dkr.ecr.us-east-1.amazonaws.com/credvault:3
+          image: 457660516559.dkr.ecr.us-east-1.amazonaws.com/credvault:6
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
